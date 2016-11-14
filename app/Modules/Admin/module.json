@@ -1,0 +1,13 @@
+{
+	"name": "Admin",
+	"slug": "admin",
+	"namespace": "Admin",
+	"version": "1.0",
+	"author": "Samir Nijenhuis",
+	"license": "MIT",
+	"description": "Basicly the core, this is a CMS with a dashboard that holds the other modules.",
+	"dependencies": [
+		"Admin/Auth"
+	],
+	"order": 0
+}

@@ -1,0 +1,11 @@
+{
+	"name": "Auth",
+	"slug": "auth",
+	"namespace": "Auth",
+	"version": "1.0",
+	"author": "Samir Nijenhuis",
+	"license": "MIT",
+	"description": "Enables user login / register including roles and permissions",
+	"dependencies" : [],
+	"order": 1
+}

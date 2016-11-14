@@ -1,0 +1,17 @@
+{
+  "name": "Admin",
+  "description": "Basicly the core, this is a CMS with a dashboard that holds the other modules.",
+  "keywords": ["admin", "module"],
+  "require": {
+    "Spatie/laravel-backup" : "^3.8",
+    "hieu-le/active": "^3.0"
+  },
+  "autoload": {
+    "files": [
+      "helpers.php"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}

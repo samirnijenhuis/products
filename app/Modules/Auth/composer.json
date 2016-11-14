@@ -1,0 +1,25 @@
+{
+  "name": "Auth",
+  "description": "Enables user login / register including roles and permissions",
+  "keywords": ["admin", "module"],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/samirnijenhuis/Repositories"
+    }
+  ],
+  "require": {
+    "cartalyst/sentinel": "2.0.*",
+    "laravel/socialite": "2.0.*",
+    "creativeorange/gravatar": "~1.0",
+    "bosnadev/repositories": "dev-constructor-fix"
+  },
+  "autoload": {
+    "files": [
+      "helpers.php"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
