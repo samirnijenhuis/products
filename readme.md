@@ -15,6 +15,7 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 - PHP artisan migrate
 - PHP artisan module:migrate auth
 - PHP artisan module:seed auth 
+- php artisan db:seed --class="Snijenhuis\Modules\Auth\Database\Seeds\AuthDatabaseSeeder"
 - PHP artisan vendor:publich --tag=modules --force
 
 You can login with email: admin@admin.com
